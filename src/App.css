@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+.parent-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+
+.table-container {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.table-container th, .table-container td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-container th {
+  background-color: #dddddd;
+  color: #333333;
+}
+
